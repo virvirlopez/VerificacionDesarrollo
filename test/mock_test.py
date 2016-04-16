@@ -1,6 +1,8 @@
 import unittest
-from Calculator import Calculatora
+
 from mock import MagicMock
+
+from src.calculator import Calculatora
 
 
 class MockTestCase(unittest.TestCase):
